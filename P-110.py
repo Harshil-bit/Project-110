@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 import statistics
 import csv
 
-df=pd.read_csv('py/data110.csv')
+df=pd.read_csv('medium_data.csv')
 data=df["temp"].to_list()
 population_mean=statistics.mean(data)
 population_std_deviation=statistics.stdev(data)
