@@ -29,8 +29,8 @@ def random_set_of_mean(counter):
 #Function to get the mean of 100 data points 1000 times and plot the graph
 def setup():
     mean_list=[]
-    for i in range(0,1000):
-        set_of_mean=random_set_of_mean(100)
+    for i in range(0,100):
+        set_of_mean=random_set_of_mean(30)
         mean_list.append(set_of_mean)
     show_fig(mean_list)
 
