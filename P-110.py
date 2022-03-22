@@ -7,7 +7,7 @@ import statistics
 import csv
 
 df=pd.read_csv('medium_data.csv')
-data=df["temp"].to_list()
+data=df["id"].to_list()
 population_mean=statistics.mean(data)
 population_std_deviation=statistics.stdev(data)
 print("The population mean is ",population_mean)
